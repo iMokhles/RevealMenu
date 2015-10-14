@@ -14,7 +14,10 @@
 - (id)applicationBundleID;
 @end
 
-@interface SBIconView : UIView
+@interface SBIconView : UIView {
+	NSTimer *_longPressTimer;
+    double _longPressGrabDuration;
+}
 @property(retain, nonatomic) SBIcon *icon;
 - (_Bool)isEditing;
 - (void)setHighlighted:(_Bool)arg1;
