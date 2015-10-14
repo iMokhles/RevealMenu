@@ -1,0 +1,9 @@
+Package: com.imokhles.revealmenu
+Name: revealMenu
+Depends: mobilesubstrate, firmware (>= 9.0)
+Architecture: iphoneos-arm
+Description: 3DTouch for old device as it should be :)
+Author: iMokhles <mokhleshussien@aol.com>
+Section: Tweaks
+Version: 1.0-5
+Installed-Size: 200
