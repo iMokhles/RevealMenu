@@ -24,6 +24,7 @@
 - (void)cancelLongPressTimer;
 - (void)setAllowJitter:(_Bool)arg1;
 - (void)_handleSecondHalfLongPressTimer:(id)arg1;
+- (void)stopRMTimer;
 @end
 
 @interface SBIconModel : NSObject
@@ -57,6 +58,7 @@
 + (instancetype)sharedInstance;
 - (void)_revealMenuForIconView:(SBIconView *)iconView presentImmediately:(BOOL)presentImmediately;
 - (void)scrollToIconListContainingIcon:(SBIcon *)icon animate:(BOOL)animate;
+- (void)_dismissShortcutMenuAnimated:(_Bool)arg1 completionHandler:(id)arg2;
 @end
 
 @interface revealMenuHelper : NSObject

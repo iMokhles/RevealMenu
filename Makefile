@@ -15,7 +15,7 @@ revealMenu_CFLAGS = -fobjc-arc
 revealMenu_FILES = revealMenu.xm revealMenuHelper.m
 revealMenu_FRAMEWORKS = Foundation UIKit AudioToolbox
 revealMenu_PRIVATE_FRAMEWORKS = PowerlogLiteOperators
-
+revealMenu_LIBRARIES = substrate MobileGestalt
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
